@@ -1,0 +1,95 @@
+body {
+    width: 1400px;
+    height: 800px;
+    margin: 10px auto;
+    padding: 10px auto;
+}
+header {
+    width: 100%;
+    height: 20%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px auto;
+    background-color: rgb(91, 111, 134);
+    font-family: 'Oswald', sans-serif;
+    color: rgb(241, 222, 188);
+
+}
+
+section {
+    width: 100%;
+    height: 60%;
+    margin: 10px auto;
+}
+main {
+    width: 70%;
+    height: 100%;
+    float: left;
+    background-image: url('https://images.unsplash.com/photo-1552053091-0800c625673c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVsYXZpdnxlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#picture {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+   
+}
+#about {
+    position: absolute;
+    left: 320px;
+    top: 200px;
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+  }
+
+  .side{
+      width: 28%;
+      height: 100%;
+      float: right;
+      background-color:rgb(241, 222, 188);
+      font-family: 'Oswald', sans-serif;
+      font-size: larger;    
+  }
+
+  .sideImage {
+      width: 100%;
+      height: 65%;
+      background-image: url('https://www.satellitetoday.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-13-at-5.50.12-PM.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+
+ #blog {
+     margin: 5px auto;
+     padding: 5px auto;
+     text-align: center;
+ }
+  button {
+      width: 200px;
+      height: 40px;
+      border-radius: 5px;
+      background-color: cadetblue;
+      color: cornsilk;
+          }
+  
+
+
+footer {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(91, 111, 134);
+    color: rgb(241, 222, 188);
+    font-size: large;
+    font-family: 'Oswald', sans-serif;                          
+}
+
+
